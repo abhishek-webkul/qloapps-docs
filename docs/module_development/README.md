@@ -18,7 +18,7 @@ Below are some technical aspects of modules.
 - It consists of template(.tpl) files and also assets i.e. CSS, JS, images, etc to display the content to the admin (on back office) Or Customers (on the front office).
 - A module can interact with as many hooks to perform actions. Through hooks, you can attach your code while code parsing.
 
-*Hooks enable you to perform any actions(execute your code) on different events Or display some content at different places.*
+*Hooks enable you to perform any actions (execute your code) on different events Or display some content at different places.*
 
 ## Operating Fundamentals for Modules
 When it comes to scalability and extendibility module development is the best method for any system growth. Developing modules are also very beneficial for the developers as it let you use your thoughts and talent to explore the best of your creativity. 

@@ -15,9 +15,13 @@ QloApps allows its installation using Command Line Interface (CLI) as well. This
 
 This mode requires you to call the PHP interpreter on this file along with the available arguments.
 
-To list all the available options and their default values run the following command from inside `install\` folder:
+To list all the available options and their default values run the following command from inside `install/` folder:
 
 ```bash
+# Change directory to /install first
+cd install
+
+# Call the CLI installer
 php index_cli.php
 ```
 

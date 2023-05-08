@@ -35,14 +35,14 @@ In QloApps, emails configuration is used to decide if use **SMTP connection** or
 ### Custom mail template
 - You can specify an email template path of your module in the **$template_path** parameter.
 - In the module root folder you have to create the subfolder **mails** and under **mails/** a subfolder with languages.
-i.e. **\modules\mymodule\mails\fr** for french.
+i.e. **modules/mymodule/mails/fr** for french.
 
 - In the created language folder, `fr`, create two files: first with extension `.html` and second with extension `.txt`.
 
 - In the second parameter, we send the name of the template.
 Two files in emails subfolders (languages folders) will be created in the module:
-    1. **modules\mymodule\mails\en\email_template_name.html**
-    2. **modules\mymodule\mails\en\email_template_name.txt**
+    1. **modules/mymodule/mails/en/email_template_name.html**
+    2. **modules/mymodule/mails/en/email_template_name.txt**
 <br>
 **email_template_name** is template's name in the following example.
 
@@ -73,4 +73,4 @@ class MyModuleModcontrollerModuleFrontController extends ModuleFrontController
 }
 ```
 After installation of the module, the email template files of the modules are also placed under the folder of the active theme:
-**...\themes\hotel-reservation-theme\modules\mymodule\mails\en\ ...**
+**.../themes/hotel-reservation-theme/modules/mymodule/mails/en/ ...**
